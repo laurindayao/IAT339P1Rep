@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="utf-8">
+  <title>P01 - Style Guide Template</title>
+<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+  <link href="css/main.css" rel="stylesheet">
+
+</head>
+    
+<body>
+<div class="tophead">
+
+  <h1>P01 - Style Guide Template</h1>
+
+  <p>A template you can use to start building out your own style guides with.</p>
+</div>
+
+<nav>
+    
+    <p>
+      On this page:
+    </p>
+    <ul>
+      <li>
+        <a href="#interactive_elements">Interactive Elements</a>
+      </li>
+      <li>
+        <a href="#text_elements">Text Elements</a>
+      </li>
+      <li>
+        <a href="#combined_elements">Combined Elements</a>
+      </li>
+    </ul>
+
+    <p>Other pages:</p>
+    <ul>
+      <li><a href="User-flows.html">User-flows</a>
+      <li><a href="Style_guide.html">Style Guide</a>
+      <li><a href="Citations.html">Citations</a>
+    </ul>
+
+  </nav>
+
+
+
+  <!-- INTERACTIVE ELEMENTS SECTION // -->
+  <section id="interactive_elements">
+
+    <!-- Default Button styling section -->
+    <section>
+
+      <h2>Navigation Button</h2>
+
+      <h3>CSS selector:</h3>
+      <p>.button-nav</p>
+
+      <h3>Sample code:</h3>
+      <code>&lt;a href="#" class="button"&gt;Default Button&lt;/a&gt;</code>
+
+      <h3>Rendered element:</h3>
+      <a class="button-nav" href="#">Default Button</a>
+
+    </section>
+
+    <section class="in-text_link">
+      <h2>In-text link</h2>
+      <p><strong><a class="wordtangerine" href="https://en.wikipedia.org/wiki/Manchuria">Manchuria</a>
+      </strong> consists mainly of the northern side of the funnel-shaped North China Craton, a large area of tilled and overlaid Precambrian rocks spanning 100 million hectares. The North China Craton was an independent continent before the Triassic period and is known to have been the northernmost piece of land in the world during the Carboniferous. The Khingan Mountains in the west are a Jurassic[23] mountain range formed by the collision of the North China Craton with the Siberian Craton, which marked the final stage of the formation of the supercontinent Pangaea.</p>
+      <h3>Sample code:</h3>
+      <code>&lt;a href="https://en.wikipedia.org/wiki/Manchuria" class="in-text_link"&gt; Manchuria &lt;/a&gt;</code>
+    </section>
+	
+    <section class="button-submit-reset">
+      <h2>Submit and Reset Buttons</h2>
+      <a class="button-submit" href="#">Submit Button</a>
+      <a class="button-reset" href="#">Clear Form/Reset button</a>
+    </section>
+<section class="socialbutton">
+    <h2> Social Media Button</h2>
+  <button type="submit" value="submit" class="ybtn ybtn-primary ybtn--social ybtn--facebook"><span><span class="i-wrap ig-wrap-common_sprite i-24x24_facebook_fff-common_sprite-wrap"><i class="i ig-common_sprite i-24x24_facebook_fff-common_sprite"></i> Share on Facebook</span></span></button>
+  </section>
+
+    <section>
+      <h2>Text Input Field</h2>
+      <form class="form" method="post" action="#">
+        <label for="first-name">First Name:</label>
+        <input type="text" class="form-name" placeholder="First name">
+        </br>
+		<label for="last-name">Last Name:</label>
+        <input type="text" class="form-name" placeholder="Last name">
+        
+        <div class="subject">
+        <label for="form-subject">Subject:</label>
+        
+       
+        <input type="text" class="form-subject" placeholder="A title for your subject"></div>
+        
+        <label for="form-comment">Comment:</label>
+        <!-- Textareas allow for multi-line text input instead of a single line -->
+        <textarea class="form-comment" placeholder="Please place comment here"></textarea>
+        <a class="button-submit2" href="#">Submit</a>
+      </form>
+      
+    </section>
+
+  </section>
+  <!-- // INTERACTIVE ELEMENTS SECTION -->
+
+
+
+  <!-- TEXT ELEMENTS SECTION // -->
+  <section id="text_elements">
+
+  <section>
+      <h2>Heading Examples</h2>
+      <h1 class="heading1"> Header level1(36px)</h1>
+      <h2> Header level 2</h2>
+      <h3> Header level 3</h3>
+    </section>
+
+    <section>
+      <h2>Paragraphs texts</h2>
+      <p class="p1"> Paragraph text level 1 normal (1.5em) </p>
+      <p class="p1medium"> Emphasized text normal (1.5em) medium</p>
+      <p class="p2"> Paragraph text level 2 small (1em)</p>
+      <p class="p2medium"> Emphasized text level 2 small medium(1em)</p>
+      <p class="linkcolor"> Link color_Visited:#00C;</p>
+  </section>
+
+    <section class="bullet">
+      <h2>Bulleted Lists</h2>
+      
+      <ul>
+      <li class="bulletedlist">Breakfast included</li>
+      <li class="bulletedlist">Spa vouchure for 2</li>
+      <li  class="bulletedlist"> Horse-riding tickets for 2</li>
+      <li  class="bulletedlist">lunch bufet included</li>
+      </ul>
+      
+    </section>
+
+    <section class="packagelist">
+      <h2>Numbered Lists</h2>
+      <ol>
+      <li><a href="#"> Package 1</a></li>
+      <li><a href="#">Package 2</a></li>
+      <li><a href="#">Package 3</a></li>
+      <li><a href="#">Package 4</a></li>
+      <li><a href="#">Package 5</a></li>
+      </ol>
+      
+    </section>
+
+</section>
+  <!-- // TEXT ELEMENTS SECTION -->
+
+
+
+
+  <!-- COMBINED ELEMENTS SECTION // -->
+<section id="combined_elements">
+
+	<section class="main-nav">
+      <h2>Main Navigation</h2>
+      
+    <ul>
+      <li>
+        <a class="button-nav" href="#interactive_elements">The Hotel</a>
+      </li>
+      
+      <li>
+        <a class="button-nav" href="#text_elements">Rooms</a>
+      </li>
+      
+      <li>
+        <a class="button-nav" href="#combined_elements">Amenities</a>
+      </li>
+      
+      <li>
+        <a class="button-nav" href="#combined_elements">Discover Manchuria</a>
+      </li>
+      
+      <li>
+        <a class="button-nav" href="#combined_elements">Gallery</a>
+      </li>
+      
+       <li><a class="button-nav" href="#combined_elements">Log in</a>
+      </li>
+    </ul>
+    </section>
+
+    <section>
+      <h2>Product Listing</h2>
+      <ul>
+<li class="bedrooms"> King Bedroom</li>
+<li class="bedrooms">Queen Bedroom</li>
+<li class="bedrooms">Delux King Bedroom</li>
+<li class="bedrooms">Delux Queen Bedroom</li>
+<li class="bedrooms">King Suite</li>
+<li class="bedrooms">King Loft</li>
+<li class="bedrooms">Double Bed</li>
+</ul>
+    </section>
+    
+   
+<section class="colorpallete">
+    	<h2> Main Color Pallete</h2>
+        <img src="../img/color.png" alt="color pallete">
+</section>
+  
+<section class="layout">
+<h2> Create account layout example</h2>
+<img src="../img/layout.png" alt="layout">
+</section>
+
+<section class="grid">
+<h2> Grid Struction</h2>
+<p> SunRise is going to be built on vertical 6-column grid. Column widths are defined as a percentage of their parent. </p>
+<img src="../img/grid.png" = alt="Grid">
+</section>
+</section>
+<!-- COMBINED ELEMENTS SECTION // -->
+</body>
+</html>

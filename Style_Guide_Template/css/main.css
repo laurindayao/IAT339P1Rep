@@ -1,0 +1,303 @@
+/*
+  STYLE GUIDE STYLING 
+  Default styling for the style guide 
+*/
+body {
+  font-family: 'Roboto', sans-serif;;
+  padding: 2rem;
+  background-repeat: no-repeat;  
+  
+  background-size: contain;
+  
+}  
+.tophead{
+	background-image:url(../../img/image.png);
+	background-repeat: no-repeat;
+	background-size:100%;
+	
+}
+.tophead{
+	text-align:left;}
+	
+.tophead h1{
+	padding-left:1em;
+	padding-right:1em;
+	padding-top:2em;
+	color:#FFF;
+	
+}
+
+.tophead p{
+	padding-left:2em;
+	padding-right:1em;
+	padding-bottom: 3em;
+	color:#FFF;
+}
+section:not([id]) {
+  margin: 1em 0;
+  padding: 1em 0;
+  border-bottom: 0.15em solid #333;
+}
+
+.heading1 {
+	font-size:36px;
+	margin-top: 0em;
+	margin-bottom:0.5em;}
+	
+section h2 {
+  margin-top: 0em;
+  margin-bottom: 0.5em;
+}
+
+	
+section h3 {
+  margin-bottom: 1em;
+}
+
+section p {
+  margin-top: 0;
+}
+/* 
+  TYleguilde navigation button -------------------
+*/
+
+
+nav ul li{
+	
+	display: inline-block;
+  
+  }
+
+nav {
+  margin-bottom: 1em;
+  padding-bottom: 1em;
+  border-bottom: 0.15em solid #333;
+  
+}
+
+nav a {
+	
+	margin-right: 0.5em;
+	border-radius: 0.25em;
+	color: #FFF;
+	text-decoration: none;
+	padding: 0.5em 0.75em;
+  background-color: #F60;
+	 -webkit-transition: background-color 0.5s ease-out;
+  transition: background-color 0.5s ease-out;
+	}
+	
+nav a:hover, nav a:focus {
+	background-color:#999;
+  text-decoration: none;
+  
+}
+
+.in-text_link a:hover, a:focus {
+	color: #FFF;
+	color: #00C;
+	text-decoration: none;
+	}
+
+.main-nav ul li{
+	display: inline-block;
+}
+
+section code {
+  background-color: #EEE;
+  padding: 0.5em 0.75em;
+  display: block;
+}
+
+ul.citations {
+  margin-left: 0.25em;
+  padding-left: 0.25em;
+}
+
+ul.citations li {
+  list-style-type: none;
+  margin-left: 0;
+  padding-left: 0;
+  padding-bottom: 1em;
+}
+
+ul.citations li strong {
+  font-weight: normal;
+  font-style: italic;
+}
+
+cite {
+  font-style: normal;
+}
+
+
+/* 
+  INTERACTIVE ELEMENTS -------------------
+*/
+
+/* Styling for the buttons */
+.button-nav {
+  display: inline-block;
+  margin: 0.5em;
+  padding: 0.5em 0.75em;
+  color: #FFF;
+  background-color: #F60;
+  border-radius: 0.25em;
+  text-decoration: none;
+  -webkit-transition: background-color 0.5s ease-out;
+  transition: background-color 0.5s ease-out;
+}
+
+.button-nav:hover, .button-nav:focus {
+  background-color:#999;
+}
+
+.button-submit-reset a:hover, a:focus {
+	background-color:#999;
+	}
+	
+.button-submit {
+	margin-top: 0.5em;
+	display: inline-block;
+  padding: 0.5em 0.75em;
+  color: #FFF;
+  background-color: #F60;
+  border-radius: 0.25em;
+  text-decoration: none;
+  -webkit-transition: background-color 0.5s ease-out;
+  transition: background-color 0.5s ease-out;
+	}
+
+
+.button-reset{
+	display: inline-block;
+  padding: 0.5em 0.75em;
+  color: #FFF;
+  background-color: #F60;
+  border-radius: 0.25em;
+  text-decoration: none;
+  -webkit-transition: background-color 0.5s ease-out;
+  transition: background-color 0.5s ease-out;
+}
+.ybtn.facebook, .ybtn--facebook {
+	color:white;
+	size: 150%;
+	border-radius: 0.25em;
+	padding: 1em;
+    text-shadow: 0 -1px 0 #364e8f;
+    border-color: #00C;
+    background: linear-gradient(#4a64ab, #3e5697);
+	}
+	
+	
+.form{
+	padding:1em;
+	background-color: #CCC;
+	width: 100%;
+	width: 40%;
+	clear:both;
+	
+}
+
+
+.form label{
+	padding: 2em;
+	width:100%；
+    clear: both;}
+	
+	
+.form .form-name {
+	
+	clear:both;
+	display:inline-block;
+	
+	}
+
+
+
+.form .form-comment{
+	
+	height:4em;}
+
+.form a {
+	display: inline-block;
+  padding: 0.5em 0.75em;
+  color: #FFF;
+  background-color: #F60;
+  border-radius: 0.25em;
+  text-decoration: none;
+  -webkit-transition: background-color 0.5s ease-out;
+  transition: background-color 0.5s ease-out;
+	}
+	
+	
+.form a:hover, a:focus{
+	Background-color:#999;
+	}
+
+.firstname{
+	margin-bottom: 0.5em;}
+	
+.form .button-submit2{
+
+	margin-top:0.5em;
+}
+
+/* 
+  TEXT ELEMENTS -------------------
+*/
+
+.p1{
+	font-size:1.5em;
+}
+.p1medium {
+	font-size:1.5em;
+	font-weight:500;
+	color:#F60;
+}
+	
+.p2{
+	font-size: 1em;
+	}
+.p2medium {
+	font-size:1em;
+	font-weight:500;
+	color:#F60;
+}
+.linkcolor{
+	color: #00C;
+}
+
+/* 
+  COMBINED ELEMENTS -------------------
+*/
+.wordtangerine{
+	color: #F60;}
+.bulletedlist, .bedrooms{
+	font-size:1.2em;
+	margin-bottom:0.5em;
+	font-weight:500;
+	}
+
+.packagelist li{
+	margin: 0.5em;
+	font-size: 18px;
+}
+
+.packagelist li a:hover, a:focus{
+	text-decoration:none;
+}
+
+
+#interactive_elements{
+	background-color: #EEE;}
+#text_elements{
+	background-color: #EEE;
+}
+#combined_elements {
+	background-color: #EEE;
+}
+
+section{
+	margin-top: 2em;
+}
