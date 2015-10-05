@@ -60,8 +60,6 @@ section p {
 /* 
   TYleguilde navigation button -------------------
 */
-
-
 nav ul li{
 	
 	display: inline-block;
@@ -301,3 +299,96 @@ cite {
 section{
 	margin-top: 2em;
 }
+
+
+/* 
+  Edit By Jia -------------------
+*/
+
+.navigation{
+  list-style:none;
+  margin:0;
+  background:#FF6600;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  justify-content: flex-end;
+
+}
+
+.navigation a {
+  line-height: 1.3em; 
+  text-align: left;
+  text-decoration: none;
+  display: block;
+  padding: 1.2em;
+  color: white;
+}
+
+.navigation a:hover{
+  background:#FF0066;
+}
+
+
+div{
+	border:1px solid #ccc;
+ 	position:relative;
+ 	margin:10px auto;
+ 	text-align:center;
+}
+
+#box1{
+	height:80px;
+	background:#ccc;
+}
+
+#box2{
+	width:66%;
+	height:300px;
+	float:left;
+	background:#ccc;
+}
+
+#box3{
+	width:33%;
+	height:300px;
+	float:right;
+	background:#ccc;
+}
+
+#box4{
+	width:33%;
+	height:600px;
+	float:left;
+	background:#ccc;
+}
+
+#box5{
+	width:66%;
+	height:375px;
+	float:right;
+	background:#ccc;
+}
+
+#box6{
+	width:22%;
+	height:210px;
+	float:right;
+	margin:4px;
+	background:#ccc;
+}
+
+
+
+
+
+.grid-col-1of6 {
+	float:left;
+	padding:0;
+  	width: 16.7%;
+}
+
+
