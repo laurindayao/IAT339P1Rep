@@ -6,7 +6,6 @@ body {
   font-family: 'Roboto', sans-serif;;
   padding: 2rem;
   background-repeat: no-repeat;  
-  
   background-size: contain;
   
 }  
@@ -191,31 +190,11 @@ cite {
 .form{
 	padding:1em;
 	background-color: #CCC;
-	width: 100%;
-	width: 40%;
-	clear:both;
+	width: 30%;
+	
 	
 }
 
-
-.form label{
-	padding: 2em;
-	width:100%；
-    clear: both;}
-	
-	
-.form .form-name {
-	
-	clear:both;
-	display:inline-block;
-	
-	}
-
-
-
-.form .form-comment{
-	
-	height:4em;}
 
 .form a {
 	display: inline-block;
@@ -307,17 +286,13 @@ section{
 
 .navigation{
   list-style:none;
-  margin:0;
   background:#FF6600;
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  -webkit-flex-flow: row wrap;
-  justify-content: flex-end;
+  text-align:center;
+ 
 
 }
+
+
 
 .navigation a {
   line-height: 1.3em; 
@@ -330,6 +305,7 @@ section{
 
 .navigation a:hover{
   background:#FF0066;
+  
 }
 
 
