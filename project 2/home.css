@@ -198,7 +198,7 @@ margin-right: 10%;
 }
  
 #footer ul li{
-	clear: both;
+	clear: both; 
 	list-style: none;
 	display: inline;
 	margin-right: 1em;
