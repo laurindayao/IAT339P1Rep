@@ -1,285 +1,212 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+
 <head>
-<link href="home.css" rel="stylesheet">
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-<link rel="stylesheet" type="text/css" href="css/jquery.datepick.css"> 
-<script type="text/javascript" src="js/jquery.plugin.js"></script> 
-<script type="text/javascript" src="js/jquery.datepick.js"></script>
-<title>SunRise Hotel Manchuria</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="basic.css" rel="stylesheet"/>
+  <link href="grid.css" rel="stylesheet"/>
+
+  <link href='https://fonts.googleapis.com/css?family=Titillium+Web:400,400italic,600,600italic,700,700italic' rel='stylesheet' type='text/css' />
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <title>SunRise Hotel Manchuria</title>
 </head>
-
 <body>
+  <!-- MAIN NAVIGATION // -->
+  <div class="nav-bar">
+    <div class="main_nav">
+      <ul>
+        <li><a href="Home Page.html"> HOME</a></li>
+        <li><a href="about-us.html">ABOUT US</a></li>
+        <li><a href="rooms.html">ROOMS</a></li>
+        <li><a href="amenities">AMENITIES</a></li>
+        <li><a href="event.html">EVENT</a></li>
+        <li><a href="contact.html">CONTACT</a></li>
+      </ul>
+    </div>
+  </div>
+  <!-- HEADER WEATHER// -->
+<div class="reservation section">
+  <div class="container">
+    <div class="grid">
+      <div class="col-7">
+        <div class="grid">
+          <div class="cell-check-in col-4">
+            <div>
+              <label for="check-in-date">Check-in date:</label>
+            </div>
+            <div>
+              <input type="date" name="bday" placeholder="DD/MM/YY" />
+            </div>
+          </div>
+          <div class="cell-check-out col-4">
+            <div>
+              <label for="check-in-date">Check-out date:</label>
+            </div>
+            <div>
+              <input type="date" name="bday" placeholder="DD/MM/YY" />
+            </div>
+          </div>
+          <div class="cell-room-type col-4">
 
-<header>
-<!-- MAIN NAVIGATION // -->
+            <div>
+              <label for="type-of-room">Type of Room: </label>
+            </div>
 
-<div>
-<ul class="main_nav">
-<li>HOME</li>
-<li>THE HOTEL</li>
-<li>ROOMS</li>
-<li>GALLERY</li>
-<li>AMENITIES</li>
-<li>DINNING</li>
-<li>EVENT</li>
-<li>CONTACT</li>
-<li>LOGIN</li>
-<li>ENGLISH</li>
-</ul>
-</div>
-</header>
+            <div>
+              <select name="type-of-room">
+                <option value="room-type">Select a type of room</option>
+                <option value="single">Single Bed Room</option>
+                <option value="double">Double Bed Room</option>
+                <option value="king">King Bed Room</option>
+                <option value="queen">Queen Bed Room</option>
+                <option value="suite">Suite</option>
+              </select>
+            </div>
+          </div>
+        </div>
 
+      </div>
+      <div class="col-5">
+        <div class="grid">
+          <div class="cell-adult-number col-4">
+            <div>
+              <label for="adult">Adult:</label>
+            </div>
+            <div>
+              <select name="adult-number">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+              </select>
+            </div>
+          </div>
+          <div class="cell-children-number col-4">
+            <div>
+              <label for="children">Children</label>
+            </div>
+            <div>
+              <select name="children-number">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+              </select>
+            </div>
+          </div>
+          <div class="cell-book-button col-4">
+            <a class="book-button"href="#">BOOK NOW</a>
+          </div>
 
+        </div>
 
-<!-- HEADER WEATHER// -->
-
-<!-- RESERVATION FORM // -->
-
-
-<section  class="weather-and-reservation">
-
-<div>
-<ul class="weather">
-<li>Local temperature: 25oC/77oF</li>
-<li>Windy</li>
-<li>Local Time: 3:00 pm, October 9th, 2015</li>
-</ul>
-</div>
-
-<div class="reservation-table">
-<div class="make-reservation">
-<p>MAKE ONLINE RESERVATION</p>
-</div>
-
-<form>
-
-<table>
-   <tr>
-      <td>
-      
-        <label for="check-in-date">Check-in date:</label></td>
-        
-  <td><input type="date" name="bday" placeholder="DD/MM/YY"></td>
-    <td><label for="check-in-date">Check-out date:</label></td>
-        
-  <td><input type="date" name="bday" placeholder="DD/MM/YY"></td>
-        <td>
-        <label for="type-of-room">Type of Room: </label> 
-      </td>
-  
-  <td><select name="type-of-room">
- <option value="room-type">Select a type of room</option>
-  <option value="single">Single Bed Room</option>
-  <option value="double">Double Bed Room</option>
-  <option value="king">King Bed Room</option>
-  <option value="queen">Queen Bed Room</option>
-  <option value="suite">Suite</option>
-</select></td>
-
-<td><label for="adult">Adult:</label>      
-  <select name="adult-number">
- <option value="1">1</option>
-  <option value="2">2</option>
-  <option value="3">3</option>
-  <option value="4">4</option>
-  <option value="5">5</option>
-</select></td>
-
-<td><label for="Children">Children</label>      
-  <select name="children-number">
- <option value="1">1</option>
-  <option value="2">2</option>
-  <option value="3">3</option>
-  <option value="4">4</option>
-  <option value="5">5</option>
-</select></td>
-     
-<td><button type="button">BOOK NOW</button></td>
-</tr>
-</table>
-</form>
-</div>
-
-</section>
-
-<!-- room types show // -->
-<section id="homepage-middle-body">
-
-<section class="room">
-
-<div id="roomshowimages">
-
-<div class="singleroom">
-<img src="" width="300px" height="200px" /> 
-<h3>Single Room &nbsp; &nbsp; CAD100</h3>
-<p class="room-info">Lorem ipsum dolor sit amet, eos sumo
-vituperatoribus in. Usu ea modo ciboeloquentiam. Cu ignota repudiandae vim,
-  elitr graece dolorum his te, nec modo iuvaret
-  reprehendunt ex. Ne luptatum dissentias vix.
-  Sea ne graeco scripta recusabo, tibique
-  senserit vel ea.</p>
+      </div>
+    </div>
+  </div>
 </div>
 
-<div clas="doubleroom">
-<img src="" width="300px" height="200px" />
-<h3>Double Room &nbsp; &nbsp; CAD100</h3>
-<p class="room-info">Lorem ipsum dolor sit amet, eos sumo
-vituperatoribus in. Usu ea modo cibo
-eloquentiam. Cu ignota repudiandae vim,
-elitr graece dolorum his te, nec modo iuvaret
-reprehendunt ex. Ne luptatum dissentias vix.
-Sea ne graeco scripta recusabo, tibique
-senserit vel ea.</p>
+  <!-- RESERVATION FORM // -->
+
+  <!-- room types show // -->
+
+<div class="section room">
+  <div class="container">
+    <div class="grid">
+      <div class="col-4">
+        <img src="img/queen.jpg" />
+        <h3>Single Room &nbsp; &nbsp; CAD100</h3>
+        <p class="room-info">Lorem ipsum dolor sit amet, eos sumo vituperatoribus in. Usu ea modo ciboeloquentiam. Cu ignota repudiandae vim elitr graece dolorum his te, nec modo iuvaret reprehendunt ex. Ne luptatum dissentias vix. Sea ne graeco scripta recusabo, tibique senserit
+          vel ea.</p>
+        <p class="view-more-rooms"><a href="">VIEW MORE ROOMS>></a></p>
+      </div>
+
+      <div class="col-4">
+        <img src="img/queen.jpg" />
+        <h3>Single Room &nbsp; &nbsp; CAD100</h3>
+        <p class="room-info">Lorem ipsum dolor sit amet, eos sumo vituperatoribus in. Usu ea modo ciboeloquentiam. Cu ignota repudiandae vim elitr graece dolorum his te, nec modo iuvaret reprehendunt ex. Ne luptatum dissentias vix. Sea ne graeco scripta recusabo, tibique senserit
+          vel ea.</p>
+        <p class="view-more-rooms"><a href="">VIEW MORE ROOMS>></a></p>
+      </div>
+
+      <div class="col-4">
+        <img src="img/queen.jpg" />
+        <h3>Single Room &nbsp; &nbsp; CAD100</h3>
+        <p class="room-info">Lorem ipsum dolor sit amet, eos sumo vituperatoribus in. Usu ea modo ciboeloquentiam. Cu ignota repudiandae vim elitr graece dolorum his te, nec modo iuvaret reprehendunt ex. Ne luptatum dissentias vix. Sea ne graeco scripta recusabo, tibique senserit
+          vel ea.</p>
+        <p class="view-more-rooms"><a href="">VIEW MORE ROOMS>></a></p>
+      </div>
+    </div>
+  </div>
 </div>
 
-<div class="kingroom">
-<img src="" width="300px" height="200px"/>
-<h3>King Room &nbsp; &nbsp; CAD100</h3>
-<p class="room-info">Lorem ipsum dolor sit amet, eos sumo
-vituperatoribus in. Usu ea modo cibo
-eloquentiam. Cu ignota repudiandae vim,
-elitr graece dolorum his te, nec modo iuvaret
-reprehendunt ex. Ne luptatum dissentias vix.
-Sea ne graeco scripta recusabo, tibique
-senserit vel ea.</p>
-</div>
-
-</div>
-
-<ul>
-<li><a href="">View more</a></li>
-</ul>
-
-</section>
-
-<!-- about SunRise Manchuria // -->
-
-<section class="about-sunrise">
-
-<div class="about-sunrise-title">
-<p>ABOUT</p>
-<h1>SUNRISE HOTEL MANCHURIA</h1>
-</div>
-
-<div class="about-sunrise-address">
-<ul>
-<li>1234 Water street, manchuria, china. 123456</li>
-<li>TEL: +86 (470)-123-4567</li>
-<li>FAX: +86 (470)-123-4567</li>
-<li>view map</li>
-</ul>
-</div>
-
-<img class="about-sunrise-img-big" src="img/double.jpg" alt="SunRise Hotel image #1" />
-
-
+  <!-- about SunRise Manchuria // -->
+<div class="about section">
+  <div class="container">
+    <div class="grid">
+      <div class="col-12 title">
+        <p>ABOUT</p>
+        <h2>----- SUNRISE HOTEL MANCHURIA -----</h2>
+        <ul>
+          <li>1234 WATER STREET, MANCHURIA, CHINA. 123456</li>
+          <li>TEL: +86 (470)-123-4567</li>
+          <li>FAX: +86 (470)-123-4567</li>
+        </ul>
+      </div>
+      <div class="col-6">
+        <img class="about-sunrise-img-big" src="img/double.jpg" alt="SunRise Hotel image #1" />
+      </div>
+      <div class="col-6">
+        <p class="hotel-intro">Lorem ipsum dolor sit amet, eos sumo vituperatoribus in. Usu ea modo cibo eloquentiam. Cu ignota repudiandae vim, elitr graece dolorum his te, nec modo iuvaret reprehendunt ex. Ne luptatum dissentias vix. Sea ne graeco scripta recusabo, tibique
+          senserit vel ea.Lorem ipsum dolor sit amet, eos sumo vituperatoribus in. Usu ea modo cibo eloquentiam. Cu ignota repudiandae vim, elitr graece dolorum his te, nec modo iuvaret reprehendunt ex. Ne luptatum dissentias vix. Sea ne graeco scripta
+          recusabo, tibique senserit vel ea.Lorem ipsum dolor sit amet, eos sumo vituperatoribus in. Usu ea modo cibo eloquentiam. Cu ignota repudiandae vim, elitr graece dolorum his te, nec modo iuvaret reprehendunt ex. Ne luptatum dissentias vix. Sea
+          ne graeco scripta recusabo, tibique senserit vel ea.</p>
+      </div>
+    </div>
+  </div>
 </div>
 
 
-<p class="hotel-intro">Lorem ipsum dolor sit amet, eos sumo
-vituperatoribus in. Usu ea modo cibo
-eloquentiam. Cu ignota repudiandae vim,
-elitr graece dolorum his te, nec modo iuvaret
-reprehendunt ex. Ne luptatum dissentias vix.
-Sea ne graeco scripta recusabo, tibique
-senserit vel ea.Lorem ipsum dolor sit amet, eos sumo vituperatoribus in. Usu ea modo cibo eloquentiam. Cu ignota repudiandae vim, elitr graece dolorum his te, nec modo iuvaret reprehendunt ex. Ne luptatum dissentias vix. Sea ne graeco scripta recusabo, tibique senserit vel ea.Lorem ipsum dolor sit amet, eos sumo vituperatoribus in. Usu ea modo cibo eloquentiam. Cu ignota repudiandae vim, elitr graece dolorum his te, nec modo iuvaret reprehendunt ex. Ne luptatum dissentias vix. Sea ne graeco scripta recusabo, tibique senserit vel ea.</p>
+  <!-- footer // -->
 
+<div class="section footer">
+  <div class="container">
+    <div class="grid">
+      <div class="col-12 address">
+        <ul>
+          <li>
+            <h4>SunRise Hotel Manchuria</h4>
+          </li>
+          <li>1234 Water street</li>
+          <li>manchuria, china. 123456</li>
+          <li>TEL: +86 (470)-123-4567</li>
+          <li>FAX: +86 (470)-123-4567</li>
+        </ul>
+      </div>
+      <div class="col-12">
+        <div class="about-us">
+          <ul>
+            <li>About Us</li>
+            <li>Blog</li>
+            <li>Careers</li>
+            <li>Contact Us</li>
+            <li>Privacy Policy</li>
+            <li id="term-of-use">Terms of Service</li>
+          </ul>
 
-</section>
+          <ul>
+            <li id="rights">Copyright © 2015 SunRise Manchuria. All Rights Reserved</li>
+          </ul>
 
-<!-- recent event// -->
-<section class="event">
-<div class="event-images">
-<h1>RECENT EVENT</h1>
-<div class="event1">
-<h2>Event #1</h2>
-<img src="" width="300px" height="200px"/>
-<p>Lorem ipsum dolor sit amet, eos sumo
-vituperatoribus in. Usu ea modo cibo
-eloquentiam. Cu ignota repudiandae vim,
-elitr graece dolorum his te, nec modo iuvaret
-reprehendunt ex. Ne luptatum dissentias vix.
-Sea ne graeco scripta recusabo, tibique
-senserit vel ea.</p>
-<p><a href="">READ MORE</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
 
-<div class="event2">
-  <h2>Event 2</h2>
-<img src="" width="300px" height="200px"/>
-<p>Lorem ipsum dolor sit amet, eos sumo
-vituperatoribus in. Usu ea modo cibo
-eloquentiam. Cu ignota repudiandae vim,
-elitr graece dolorum his te, nec modo iuvaret
-reprehendunt ex. Ne luptatum dissentias vix.
-Sea ne graeco scripta recusabo, tibique
-senserit vel ea.</p>
-<p><a href="">READ MORE</a></p>
-</div>
-
-<div class="event3">
-<h2>Event 3</h2>
-
-<img src="" width="300px" height="200px"/> 
-<p>Lorem ipsum dolor sit amet, eos sumo
-vituperatoribus in. Usu ea modo cibo
-eloquentiam. Cu ignota repudiandae vim,
-elitr graece dolorum his te, nec modo iuvaret
-reprehendunt ex. Ne luptatum dissentias vix.
-Sea ne graeco scripta recusabo, tibique
-senserit vel ea.</p>
-<p><a href="">READ MORE</a></p>
-</div>
-</div>
-</section>
-
-<!-- footer // -->
-
-<section id="footer">
-
-<div class="footer-upper">
-
-<div>
-<h3>SunRise Hotel Manchuria</h3>
-<ul>
-<li>1234 Water street</li>
-<li>manchuria, china. 123456</li>
-<li>TEL: +86 (470)-123-4567</li>
-<li>FAX: +86 (470)-123-4567</li>
-<li><a href="">Direnctions and map</a></li>
-</ul>
-</div>
-
-
-<div class="follow">
-<h3>Follow us on Social media</h3>
-<img name="SunRise" src="" width="50px" height="50px" alt="" />
-<img name="SunRise" src="" width="50px" height="50px" alt="" />
-<img name="SunRise" src="" width="50px" height="50px" alt="" />
-</div>
-
-</div>
-
-
-<div class="about-us">
-<ul>
-<li>About Us</li>
-<li>Blog</li>
-<li>Careers</li>
-<li>Contact Us</li>
-<li>Privacy Policy</li>
-<li>Terms of Service</li>
-</ul>
-
-<ul>
-<li>Copyright © 2015 SunRise Manchuria. All Rights Reserved.</li>
-</ul>
-
-</div>
-
-</section>
 
 </body>
+
 </html>
