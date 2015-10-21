@@ -17,15 +17,14 @@ body {
   padding:1.5rem;
   /*background-color: green;*/
 }
+
 .room .container .grid {
 	width: 100%;
 }
 .room .container .grid img{
 	width: 100%;
 }
-.weather-and-reservation{
-	background-color: white;
-}
+
 li{
 	list-style: none;
 }
@@ -71,26 +70,7 @@ a{
 	color: black;
 
 }
-.weather{
 
-	display:none;
-
-}
-
-.reservation-table{
-	background-color: rgba(204,204,204,0.3);
-		/*font-weight: 400;
-		margin: 0.5em;*/
-		text-align: center;
-
-	}
-
-.reservation-table li{
-	line-height: 2em;
-	color: white;
-	background-color: rgb(48,190,220);
-
-}
 
 [class*='cell-']{
 	text-align: center;
@@ -141,37 +121,6 @@ input,select{
 
 
 
-.about-wrapper{
-	display: none;
-}
-
-
-
-.page-footer{
-	padding-top: 0.5em;
-	padding-bottom: 0.5em;
-	background-color: black;
-	color: white;
-	text-align: center;
-
-}
-
-.page-footer ul li{
-	list-style: none;
-	line-height: 1.2em;}
-
-.page-footer img{
-	display: none;
-}
-
-
-
-.footer-follow{
-	display:none;
-
-}
-
-
 .about-us {
 	display: none;
 }
@@ -181,12 +130,6 @@ input,select{
 
 
 
-	body {
-
-	font-family: 'Titillium Web', sans-serif;
-	background-color: rgba(204,204,204, 0.5);
-
-}
 input{
 
 	font-size: 1em;
@@ -199,15 +142,6 @@ input{
 
 
 
-
-
-.nav-bar{
-	background-image: url(img/background-img-3.jpg);
-	background-repeat: no-repeat;
-	background-size:100%;
-	height: 20em;}
-
-
 .main_nav{
 	text-align: center;
 	background-color: rgba(0,0,0, 0.2);
@@ -217,6 +151,7 @@ input{
 	text-align: center;
 	font-weight:600;
 	font-size: 1em;
+	margin-top: 2em;
 }
 
 
@@ -266,16 +201,7 @@ display:none;
 }
 
 
-.reservation-table{
-	font-size: 80%;
-	/*margin-left: 0;
-	margin-top: 0;
-	width: 100%;*/
-	/*overflow: auto;*/
-	background-color: white;
-	font-size: 1em;
 
-}
 
 
 
@@ -320,12 +246,6 @@ display:none;
 	line-height: 2em;
 }
 
-.view-more-details{
-	background-color: black;
-	text-align: center;
-}
-
-
 
 /*.grid:after {
   content: "";
@@ -335,18 +255,6 @@ display:none;
 
 
 
-.about-wrapper{
-	background-color: white;
-	color:black;
-}
-
-.page-footer{
-	border-top: solid thick black;
-	text-align: center;
-	padding-left: 10%;
-	padding-right: 10%;
-	color: black;
-}
 .about-img, .about-address{
 	float: left;
 
@@ -379,7 +287,6 @@ display:none;
 
 body {
 	width: 100%;
-	font-family: 'Titillium Web', sans-serif;
 	background-color: rgba(204,204,204, 0.5);
 
 }
@@ -699,12 +606,17 @@ input{
 	width: 3em;
 }
 /******** about us *******/
-
-
+.nav-bar{
+	background-image: url(img/background-img-3.jpg);
+	background-repeat: no-repeat;
+	background-size:100%;
+	height: 30em;}
+	
 @media (max-width: 60rem) {
 	.reservation .container .grid .col-7,.reservation .container .grid .col-5{
 		width:100%;
 	}
+
 	.about .container .grid .col-6{
 		width:100%;
 	}
@@ -723,6 +635,7 @@ input{
 		margin-bottom: 0.5rem;
 		/*background-color: red;*/
 	}
+
 	.nav-bar{
 		background-image: none;
 		background-color: white;
@@ -735,5 +648,11 @@ input{
 @media (max-width: 30rem) {
 	.reservation .container .grid .col-7 .col-4,.reservation .container .grid .col-5 .col-4{
 		width:100%;
+
 	}
+	.nav-bar{
+	height: 0em;}
+
+
 }
+

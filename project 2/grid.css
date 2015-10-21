@@ -69,25 +69,7 @@
   padding-right: 1.5rem;
 }
 
-/*@media (max-width: 30em) {
-  .col-6{
-  width:100%;
-  }
-  .jumbotron{
-    background-position: 20% 50%;
-  }
-}
 
-@media (max-width: 60em) {
-
-  #menu-nav{
-    display: none;
-  }
-  .hamburger{
-    display:block;
-
-  }
-}*/
 
 .clear-padding{
   padding:0rem;
