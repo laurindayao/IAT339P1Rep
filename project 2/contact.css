@@ -1,0 +1,15 @@
+.contact-container{
+	width: 100%;
+	text-align: center;
+	padding: 3em;
+}
+
+.contact-container li{
+	
+	display: inline;
+	margin-right: 1em;
+}
+
+.contact-container img{
+	width: 80%;
+}
