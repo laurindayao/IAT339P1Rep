@@ -2,6 +2,12 @@
 body {
 	font-family: 'Titillium Web', sans-serif;
 	margin: 0px;
+
+}
+
+
+.title li{
+	padding-right: 2em;
 }
 
 .section{
@@ -239,12 +245,6 @@ display:none;
 
 
 
-.view-more-rooms{
-	width: 100%;
-	text-align: center;
-	background-color:black;
-	line-height: 2em;
-}
 
 
 /*.grid:after {
@@ -287,7 +287,7 @@ display:none;
 
 body {
 	width: 100%;
-	background-color: rgba(204,204,204, 0.5);
+	background-color: rgba(204,204,204, 0.1);
 
 }
 
@@ -416,7 +416,7 @@ input{
 
 	color: rgb(48,160,192);
 	font-weight: bold;
- 	text-align: center;
+ 	text-align: left;
 
 }
 

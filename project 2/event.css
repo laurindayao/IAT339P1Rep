@@ -1,0 +1,39 @@
+.event, .event h3{
+
+	text-align: center;
+}
+
+.event h3{
+	text-transform: uppercase;
+	
+}
+
+.event {
+	width: 80%;
+	padding-top: 2em;
+	padding-bottom: 2em;
+	margin-left: auto;
+	margin-right: auto;
+}
+.event img{
+	width: 50%;
+	padding-right: 1em;
+}
+.event img{
+	float: left;
+	height: 50%;
+}
+.event p{
+	clear: both;
+	padding-top: 3em;
+	text-align: left;
+	margin-left: auto;
+	margin-right: auto;	
+}
+[class*='event-']{
+	border-bottom: solid thin black;
+}
+
+[class*='event-']:last-of-type{
+	border-bottom: none;
+}

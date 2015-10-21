@@ -13,3 +13,8 @@
 .contact-container img{
 	width: 80%;
 }
+
+h4{
+	text-transform: uppercase;
+	font-size: 1.2rem;
+}
