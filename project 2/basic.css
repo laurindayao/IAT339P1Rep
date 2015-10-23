@@ -66,6 +66,7 @@ a{
 
 }
 
+
 .main_nav li a:hover{
 	color:black;
 }
@@ -73,7 +74,7 @@ a{
 
 .main_nav li:hover, .main_nav li:active, .main_nav li:focus {
 	background-color: rgb(48,190,220);
-	color: black;
+	
 
 }
 
@@ -625,6 +626,8 @@ input{
 		height: 25em;
 	}
 }
+
+
 @media (max-width: 40rem) {
 
 	.nav-bar .main_nav ul li{
@@ -635,6 +638,8 @@ input{
 		/*background-color: red;*/
 	}
 
+
+
 	.nav-bar{
 		background-image: none;
 		background-color: white;
@@ -643,6 +648,10 @@ input{
 	.main_nav{
 		text-align: center;
 		background-color: white;
+}
+
+
+
 }
 
 @media (max-width: 30rem) {
