@@ -5,7 +5,13 @@ body {
 
 }
 
-
+.about-title{
+	font-family: Verdana, sans-serif;
+	text-align: center;
+	line-height: 0em;
+	font-weight: 400;
+	font-size: 1.2em;
+}
 .title li{
 	padding-right: 2em;
 }
@@ -158,7 +164,6 @@ input{
 	color: gray;
  	float: right;
 	width: 100%;
-	text-align: center;
 	font-weight:600;
 	font-size: 1em;
 	margin-top: 2em;
@@ -298,7 +303,7 @@ body {
 p {
 
 	line-height: 1.5em;
-	text-align: justify;
+	text-align: left;
 }
 }
 
@@ -605,7 +610,7 @@ input{
 }
 /******** about us *******/
 .nav-bar{
-	background-image: url(img/background-img-2-1.jpg);
+	background-image: url(img/background-img-2.jpg);
 	background-repeat: no-repeat;
 	background-size:100%;
 	height: 40em;}

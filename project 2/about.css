@@ -9,3 +9,52 @@
 	width: 100%;
 	background-color: rgba(204,204, 204, 0.3);
 }
+
+
+
+textarea{
+	width: 100%;
+
+	height: 20em;
+}
+
+
+.review{
+
+	width: 100%;
+	background-color: white;
+}
+
+.review-container{
+	margin-left: auto;
+	margin-right: auto;
+	width: 70%;
+}
+
+.submit-button{
+	width: 100%;
+	text-align: center;
+	margin-top: 2em;
+}
+
+.submit-button a{
+	padding-left: 1em;
+	padding-right: 1em;
+}
+
+@media (max-width: 30rem) {
+	.reservation .container .grid .col-7 .col-4,.reservation .container .grid .col-5 .col-4{
+		width:100%;
+
+	}
+	.nav-bar{
+	height: 0em;}
+
+	
+
+	.main_nav ul li:hover{
+		background-color: rgb(48,190,220);
+		
+	}
+
+	}

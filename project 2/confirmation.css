@@ -1,17 +1,39 @@
 body{
   background-color: white;
 }
-
-.info{
-  background-color: white;
+.path{
+  margin-top: 3em;
 }
+.path p{
+  color: white;
+  font-weight: 600;
+  font-size: 1.5em;
+}
+
+
+.confirmation-title{
+  color: white;
+}
+
+h3{
+  text-align: center;
+}
+.path .container{
+   max-width: 50em;
+  padding: 0.1em;
+  background-color: rgb(48,190,220);
+  text-align: center;
+  
+}
+
+
+
 .info .container{
   background-color:rgb(245, 245, 245);
-  margin-top: 3rem;
   margin-bottom: 3rem;
   padding-left: 5rem;
   padding-right: 5rem;
-  max-width: 55rem;
+  max-width: 50rem;
 }
 .info .container  .grid .col-6 h2{
   text-align: left;
@@ -49,3 +71,21 @@ body{
   height: 1.9rem;
   width: 100%;
 }
+
+@media (max-width: 30rem) {
+  .reservation .container .grid .col-7 .col-4,.reservation .container .grid .col-5 .col-4{
+    width:100%;
+
+  }
+  .nav-bar{
+  height: 0em;}
+
+  
+
+  .main_nav ul li:hover{
+    background-color: rgb(48,190,220);
+    
+  }
+
+  }
+

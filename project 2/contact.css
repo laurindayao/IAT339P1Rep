@@ -24,3 +24,20 @@ h4{
 	text-transform: uppercase;
 	font-size: 1.2rem;
 }
+
+@media (max-width: 30rem) {
+	.reservation .container .grid .col-7 .col-4,.reservation .container .grid .col-5 .col-4{
+		width:100%;
+
+	}
+	.nav-bar{
+	height: 0em;}
+
+	
+
+	.main_nav ul li:hover{
+		background-color: rgb(48,190,220);
+		
+	}
+
+	}
