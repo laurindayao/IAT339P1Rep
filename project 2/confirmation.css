@@ -1,0 +1,51 @@
+body{
+  background-color: white;
+}
+
+.info{
+  background-color: white;
+}
+.info .container{
+  background-color:rgb(245, 245, 245);
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  max-width: 55rem;
+}
+.info .container  .grid .col-6 h2{
+  text-align: left;
+}
+.info .container .grid .col-6 img{
+  width: 100%;
+}
+.info .container .grid{
+}
+.info .container .grid .continue{
+  margin-top: 2rem;
+}
+.info .container .grid .addanother{
+  text-align: right;
+}
+.info .container .grid .col-12 p{
+  text-align: center;
+}
+.info .container .grid .col-12 h1{
+  text-align: center;
+}
+.info .container .grid .col-6{
+  margin-bottom: 1rem;
+}
+.info .container .grid .last{
+  padding-right: 0;
+}
+.info .container .grid .col-6 .grid .col-3{
+  padding-right: 1rem;
+}
+.info .container .grid .col-6 .grid .col-9{
+  padding-right: 0rem;
+}
+.info .container .grid .col-6 .grid .col-3 select{
+  height: 1.9rem;
+  width: 100%;
+}

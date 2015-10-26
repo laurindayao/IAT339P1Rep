@@ -1,3 +1,8 @@
+.nav-bar{
+	background-image: url(img/event.jpg);
+	background-repeat: no-repeat;
+	background-size:100%;
+	height: 30em;}
 .event, .event h3{
 
 	text-align: center;

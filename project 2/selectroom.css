@@ -1,0 +1,67 @@
+
+.selectroom{
+  background-color: white;
+}
+
+a:hover{
+  color: red;
+}
+
+
+.path{
+  background-color: white;
+  
+
+}
+.path p{
+  color: white;
+  font-weight: 600;
+  font-size: 1.5em;
+
+}
+
+.path .container{
+  padding: 0.1em;
+  background-color: rgb(48,190,220);
+  text-align: center;
+
+  
+}
+
+
+
+.selectroom .container{
+  padding-left: 0;
+  padding-right: 0;
+}
+.selectroom .container .roomcontainer .grid .averagerate{
+  padding-left: 3rem;
+}
+.selectroom .container .roomcontainer .grid .singleroom{
+  padding-left: 3rem;
+}
+.selectroom .container .roomcontainer .grid .averagerate h2{
+  text-align: left;
+}
+.selectroom  .container .roomcontainer .grid .singleroom h2{
+  text-align: left;
+  margin-top: 0px;
+}
+.selectroom img{
+  width: 100%;
+}
+.selectroom .roomcontainer{
+  margin-bottom: 1rem;
+  padding: 1.5rem;
+
+  background-color: rgb(245, 245, 245);
+}
+
+
+@media (max-width: 50rem) {
+
+  .selectroom .container .roomcontainer .grid .col-4{
+    width: 100%;
+    padding: 0;
+  }
+}

@@ -1,0 +1,108 @@
+body{
+  background-color: white;
+}
+
+span{
+  font-weight: 400;
+  color: gray;
+}
+.path{
+  background-color: white;
+
+}
+
+h1{
+
+  text-align: center;
+}
+.path p{
+  color: white;
+  font-weight: 600;
+  font-size: 1.5em;
+}
+
+
+
+.path .container{
+   max-width: 50em;
+  padding: 0.1em;
+  background-color: rgb(48,190,220);
+  text-align: center;
+  
+}
+
+
+
+
+.info{
+  background-color: white;
+}
+
+.info .container{
+  background-color:rgb(245, 245, 245);
+  margin-bottom: 1rem;
+  padding-left: auto;
+  padding-right: auto;
+  max-width: 50em;
+  
+}
+
+.review-info{
+  border: solid thin black;
+  overflow: auto;
+  
+
+
+}
+.review-info li{
+  margin: 1em;
+}
+.review-left, .review-right{
+  margin: 1em;
+  width: 20em;
+  
+  float: left;
+}
+
+
+
+
+.info .container  .grid .col-6 h2{
+  text-align: left;
+}
+.info .container .grid .col-6 img{
+  width: 100%;
+}
+.info .container .grid{
+}
+.info .container .grid .continue{
+  margin-top: 2rem;
+}
+.info .container .grid .addanother{
+  text-align: right;
+}
+.info .container .grid .col-12 h1{
+  text-align: center;
+}
+.info .container .grid .col-6{
+  margin-bottom: 1rem;
+}
+.info .container .grid .last{
+  padding-right: 0;
+}
+.info .container .grid .col-6 .grid .col-3{
+  padding-right: 1rem;
+}
+.info .container .grid .col-6 .grid .col-9{
+  padding-right: 0rem;
+}
+.info .container .grid .col-6 .grid .col-3 select{
+  height: 1.9rem;
+  width: 100%;
+}
+@media (max-width: 50rem) {
+  .info .container .grid .col-6{
+    width: 100%;
+    padding-right: 0;
+  }
+}
