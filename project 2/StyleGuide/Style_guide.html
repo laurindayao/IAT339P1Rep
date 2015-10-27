@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>P01 - Style Guide Template</title>
+  
+  <link href="css/grid.css" rel="stylesheet">
+  <link href="css/rooms.css" rel="stylesheet">
+  <link href="css/about.css" rel="stylesheet">
+    <link href="css/basic.css" rel="stylesheet">
+     <link href="css/main.css" rel="stylesheet">
+     <link href='https://fonts.googleapis.com/css?family=Titillium+Web:400,400italic,600,600italic,700,700italic' rel='stylesheet' type='text/css' />
+</head>
+    
+<body>
+<div class="tophead">
+  <h1>P02 - Style Guide Template</h1>
+  <p>A template you can use to start building out your own style guides with.</p>
+</div>
+
+<nav>  
+    <p>
+      On this page:
+    </p>
+    <ul>
+      <li>
+        <a href="#interactive_elements">Interactive Elements</a>
+      </li>
+      <li>
+        <a href="#text_elements">Text Elements</a>
+      </li>
+      <li>
+        <a href="#combined_elements">Combined Elements</a>
+      </li>
+    </ul>
+    <p>Other pages:</p>
+    <ul>
+      <li><a href="User-flows.html">User-flows</a>
+      <li><a href="Style_guide.html">Style Guide</a>
+      <li><a href="Citations.html">Citations</a>
+    </ul>
+</nav>
+
+
+  <!-- INTERACTIVE ELEMENTS SECTION // -->
+  <section id="interactive_elements">
+    <!-- Default Button styling section -->	
+    <section>
+      <h2>Buttons</h2>
+      <h3>Sample code:</h3>
+      <code>&lt;a href="#" class="button"&gt;SUBMIT&lt;/a&gt;</code>
+      <code>&lt;a href="#" class="button"&gt;BOOK NOW&lt;/a&gt;</code>
+      <code>&lt;a href="#" class="button"&gt;BOOK A TREATMENT&lt;/a&gt;</code>
+      <h3>Rendered element:</h3>
+      <a class="book-button" href="#">SUBMIT</a>
+      <a class="book-button" href="#">BOOK NOW</a>
+      <a class="book-button" href="#">BOOK A TREATMENT</a>
+    </section>
+
+    <section>
+      <h2>In-text link</h2>
+      <h3>Sample code:</h3>
+      <code>&lt;a href="#" class="view-more-detals"&gt; VIEW MORE DETAILS &lt;/a&gt;</code>
+      <h3>Rendered element:</h3>
+      <p class="view-more-details"><a href="#">VIEW MORE DETAILS>></a></p>
+    </section>
+
+    <section>
+      <h2>Text Input Field</h2>   
+      <h3>Sample code:</h3> 
+      <h3>Rendered element:</h3>
+
+  <div class="container">
+    <div class="grid">
+      <div class="col-7">
+        <div class="grid">
+          <div class="cell-check-in col-4">
+            <div>
+              <label for="check-in-date">Check-in date:</label>
+            </div>
+            <div>
+              <input type="date" name="bday" placeholder="DD/MM/YY" />
+            </div>
+          </div>
+          <div class="cell-check-out col-4">
+            <div>
+              <label for="check-in-date">Check-out date:</label>
+            </div>
+            <div>
+              <input type="date" name="bday" placeholder="DD/MM/YY" />
+            </div>
+          </div>
+          <div class="cell-room-type col-4">
+
+            <div>
+              <label for="type-of-room">Type of Room: </label>
+            </div>
+
+            <div>
+              <select name="type-of-room">
+                <option value="room-type">Select a type of room</option>
+                <option value="single">Single Bed Room</option>
+                <option value="double">Double Bed Room</option>
+                <option value="king">King Bed Room</option>
+                <option value="queen">Queen Bed Room</option>
+                <option value="suite">Suite</option>
+              </select>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="col-5">
+        <div class="grid">
+          <div class="cell-adult-number col-4">
+            <div>
+              <label for="adult">Adult:</label>
+            </div>
+            <div>
+              <select name="adult-number">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+              </select>
+            </div>
+          </div>
+          <div class="cell-children-number col-4">
+            <div>
+              <label for="children">Children</label>
+            </div>
+            <div>
+              <select name="children-number">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+              </select>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+
+</div><!-- reservation --> 
+
+     <div class="review-container">
+      <form>
+        <div class="name">
+          <label name="name"> Name: </labe>
+          <input type="text" name="input-name" /> 
+        </div>
+
+        <div class="subject-line">
+          <label name="subject"> Subject </label>
+          <input type="text" name ="subject"/>
+        </div>
+
+        <div class="comment">
+          <label name="comment"> Comment: </label>
+          <textarea name="comment"> </textarea>
+        </div>
+      </form>
+     </div>
+
+    </section>
+
+  </section>
+  <!-- // INTERACTIVE ELEMENTS SECTION -->
+
+
+
+  <!-- TEXT ELEMENTS SECTION // -->
+  <section id="text_elements">
+
+    <section >
+        <h2>Typography</h2>
+        <p>Sunrise uses font: <strong>font-family: 'Titillium Web', sans-serif</strong></p>
+        <div>
+        <h2>HEADER Level1:SUNRISE HOTEL MANCHURIA </h2>
+        <h3>HEADER Level2:Our Rooms</h3>
+        <p>PARAGRAGH:Spacious,bright and outward facing rooms and totally refurbished. The room is fully equipped bathroom finished in top quality bronze coloured ceramics and an independent hallway-dressing area.</p>
+        </div>
+    </section>
+
+
+    <section class="bullet">
+      <h2>Bulleted Lists</h2>
+      <h3>Sample code:</h3>
+          <code>
+            &lt;ul&gt;
+                &lt;li&gt;1234 Water street&lt;/li&gt; 
+            &lt;/ul&gt;  
+          </code>
+      <h3>Rendered element:</h3>
+        <ul>
+        <li class="bulletedlist">1234 Water street</li>
+        <li class="bulletedlist">manchuria, china. 123456</li>
+        <li  class="bulletedlist">TEL: +86 (470)-123-4567</li>
+        <li  class="bulletedlist">FAX: +86 (470)-123-4567</li>
+        </ul> 
+    </section>
+
+    <section class="packagelist">
+      <h2>Numbered Lists</h2>
+      <h3>Sample code:</h3>
+            <code>
+              &lt;ol&gt;
+              &lt;li&gt;STEP1:SELECT YOUR ROOMS&lt;/li&gt; 
+              &lt;/ol&gt; 
+            </code>
+      <h3>Rendered element:</h3>
+      <ol>
+      <li>STEP1:SELECT YOUR ROOMS</li>
+      <li>STEP 2: GUEST INFORMATION</li>
+      <li>STEP 3: REVIEW AND PAYMENT</a></li>
+      <li>STEP 4: CONFIRMATION</a></li>
+      </ol>
+    </section>
+
+</section>
+  <!-- // TEXT ELEMENTS SECTION -->
+
+
+
+  <!-- COMBINED ELEMENTS SECTION // -->
+<section id="combined_elements">
+
+	<section>
+      <h2>Main Navigation</h2>
+          <div class="main_nav">
+            <ul>
+              <li><a href="home.html"> HOME</a></li>
+              <li><a href="about-us.html">ABOUT US</a></li>
+              <li><a href="rooms.html">ROOMS</a></li>
+              <li><a href="amenities.html">AMENITIES</a></li>
+              <li><a href="event.html">EVENT</a></li>
+              <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+          </div>
+    </section>
+
+
+
+    <section class="colorpallete">
+      <h2> Main Color Pallete</h2>
+      <div class="container">
+      <div class="grid">
+      <div class="col-3" id="color1">#EA3F37</div>
+      <div class="col-3" id="color2">#58BFDD</div>
+      <div class="col-3" id="color3">#FCFCFC</div>
+      <div class="col-3" id="color4">#000000</div>
+    </div>
+  </div>
+      
+    </section>
+
+    <section>
+      <h2>Product Listing</h2>
+      <div class="section room">
+  <div class="container">
+    <div class="grid">
+      <div class="col-4">
+
+        <img src="img/single.jpg" />
+        <h3>Single Bed</h3>
+       <p class="room-info">spacious, bright and outward facing rooms and totally refurbished. The room is fully equipped bathroom finished in top quality bronze coloured ceramics and an independent hallway-dressing area.</p>
+        <p class="view-more-rooms"><a href="rooms.html">VIEW MORE DETAILS>></a></p>
+      </div>
+
+      <div class="col-4">
+        <img src="img/double.jpg" />
+        <h3>Double Bed</h3>
+      <p class="room-info">spacious, bright and outward facing rooms and totally refurbished. The room is fully equipped bathroom finished in top quality bronze coloured ceramics and an independent hallway-dressing area.</p>
+        <p class="view-more-rooms"><a href="event.html">VIEW MORE DETAIL>></a></p>
+      </div>
+
+      <div class="col-4">
+        <img src="img/twin.jpg" />
+        <h3>Twin Bed</h3>
+       <p class="room-info">spacious, bright and outward facing rooms and totally refurbished. The room is fully equipped bathroom finished in top quality bronze coloured ceramics and an independent hallway-dressing area.</p>
+        <p class="view-more-rooms"><a href="amenities.html">VIEW MORE DETAIL>></a></p>
+      </div>
+    </div>
+  </div>
+<div class="container">
+    <div class="grid">
+      
+      <div class="col-4">
+
+        <img src="img/king.jpg" />
+        <h3>King Bed</h3>
+           <p class="room-info">spacious, bright and outward facing rooms and totally refurbished. The room is fully equipped bathroom finished in top quality bronze coloured ceramics and an independent hallway-dressing area.</p>
+        <p class="view-more-rooms"><a href="rooms.html">VIEW MORE DETAIL>></a></p>
+      </div>
+
+      <div class="col-4">
+        <img src="img/queen.jpg" />
+        <h3>Queen Bed</h3>
+           <p class="room-info">spacious, bright and outward facing rooms and totally refurbished. The room is fully equipped bathroom finished in top quality bronze coloured ceramics and an independent hallway-dressing area.</p>
+        <p class="view-more-rooms"><a href="event.html">VIEW MORE DETAIL>></a></p>
+      </div>
+
+      <div class="col-4">
+        <img src="img/suite.jpg" />
+        <h3>Suite</h3>
+           <p class="room-info">spacious, bright and outward facing rooms and totally refurbished. The room is fully equipped bathroom finished in top quality bronze coloured ceramics and an independent hallway-dressing area.</p>
+        <p class="view-more-rooms"><a href="amenities.html">VIEW MORE DETAIL>></a></p>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+</section>
+      
+
+<section>
+<h2> Grid Struction</h2>
+<p> SunRise is going to be built on vertical <strong>12-column grid</strong>. Column widths are defined as a percentage of their parent. </p>
+  <div class="container">
+    <div class="grid">
+      <div class="col-1 box">col-1</div>
+      <div class="col-1 box">col-1</div>
+      <div class="col-1 box">col-1</div>
+      <div class="col-1 box">col-1</div>
+      <div class="col-1 box">col-1</div>
+      <div class="col-1 box">col-1</div>
+      <div class="col-1 box">col-1</div>
+      <div class="col-1 box">col-1</div>
+      <div class="col-1 box">col-1</div>
+      <div class="col-1 box">col-1</div>
+      <div class="col-1 box">col-1</div>
+      <div class="col-1 box">col-1</div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="grid">
+      <div class="col-3 box">col-3</div>
+      <div class="col-3 box">col-3</div>
+      <div class="col-3 box">col-3</div>
+      <div class="col-3 box">col-3</div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="grid">
+      <div class="col-6 box">col-6</div>
+      <div class="col-6 box">col-6</div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="grid">
+      <div class="col-8 box">col-8</div>
+      <div class="col-4 box">col-4</div>
+    </div>
+  </div>
+</section>
+
+</section>
+<!-- COMBINED ELEMENTS SECTION // -->
+
+</body>
+</html>

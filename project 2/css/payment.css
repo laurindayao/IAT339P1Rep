@@ -3,7 +3,7 @@ body{
 }
 
 .nav-bar{
-  background-image: url(img/payment.jpg);
+  background-image: url(../img/payment.jpg);
   background-repeat: no-repeat;
   background-size:100%;
   height: 30em;}
@@ -119,7 +119,7 @@ h2{
 .billing{
   padding-top: 8em;
   }
-}
+
 @media (max-width: 50rem) {
   .info .container .grid .col-6{
     width: 100%;

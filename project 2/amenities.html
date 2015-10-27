@@ -4,11 +4,13 @@
 
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="basic.css" rel="stylesheet"/>
-  <link href="grid.css" rel="stylesheet"/>
-  <link href="amenities.css" rel="stylesheet"/>
+  <link href="css/basic.css" rel="stylesheet"/>
+  <link href="css/grid.css" rel="stylesheet"/>
+  <link href="css/amenities.css" rel="stylesheet"/>
+  <link href="css/other-query.css" rel="stylesheet"/>
 
   <link href='https://fonts.googleapis.com/css?family=Titillium+Web:400,400italic,600,600italic,700,700italic' rel='stylesheet' type='text/css' />
+  <link rel="stylesheet" type="text/css" media="screen" href="http://cdnjs.cloudflare.com/ajax/libs/fancybox/1.3.4/jquery.fancybox-1.3.4.css" />
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
   <title>SunRise Hotel Manchuria</title>
 </head>
@@ -98,8 +100,8 @@
               </select>
             </div>
           </div>
-          <div class="cell-book-button col-4">
-            <a class="book-button"href="select-room.html">BOOK NOW</a>
+           <div class="cell-book-button col-4">
+            <a class="book-button" href="select-room.html">BOOK NOW</a>
           </div>
         </div>
       </div>
@@ -118,21 +120,21 @@
       <h1> OUR AMENITIES</h1>
       <div class="col-4">
 
-        <img src="img/fitness.jpeg" />
+        <a href="#"><img class="fancybox" src="img/fitness.jpeg" alt="fitness center image"/></a>
         <h3>Fitness Center</h3>
        <p class="room-info">Rejuvenate  and recharge at our state-of-the-art Fitness Centre. The 325-square-metre (3,500-square-foot) fitness area offers a leading-edge gym fully outfitted with free weights.</p>
-        <p class="view-more-rooms"><a href="fitness.html">VIEW MORE DETAIL>></a></p>
+        <p class="view-more-rooms"><a href="fitness.html">VIEW MORE DETAILS>></a></p>
       </div>
 
       <div class="col-4">
-        <img src="img/spa.jpeg"/>
+        <a href="#"><img class="fancybox" src="img/spa.jpeg" alt="spa center image"/></a>
         <h3>Spa</h3>
       <p class="room-info">The Spa at Sunrise Hotel  combines a philosophy of absolute individuality with some of the world’s most clinically advanced therapies; merging science with nature to offer balancing.</p>
-        <p class="view-more-rooms"><a href="amenities-sub.html">VIEW MORE DETAIL>></a></p>
+        <p class="view-more-rooms"><a href="amenities-spa.html">VIEW MORE DETAIL>></a></p>
       </div>
 
       <div class="col-4">
-        <img src="img/media.jpeg" />
+        <a href="#"><img class="fancybox" src="img/media.jpeg" alt="media room image"/></a>
         <h3>Media Room</h3>
        <p class="room-info">Around the clock, Sunrise can assist you with business, entertainment or travel arrangements through the Business Centre and our resourceful, multilingual Concierge.</p>
         <p class="view-more-rooms"><a href="amenities.html">VIEW MORE DETAIL>></a></p>
@@ -161,10 +163,10 @@
       <div class="col-12">
         <div class="about-us">
           <ul>
-            <li>About Us</li>
-            <li>Blog</li>
+            <li><a href="about-us.html">About Us</a></li>
+            <li><a href="event.html">Event</a></li>
             <li>Careers</li>
-            <li>Contact Us</li>
+            <li><a href="contact.html">Contact Us</a></li>
             <li>Privacy Policy</li>
             <li id="term-of-use">Terms of Service</li>
           </ul>
@@ -179,7 +181,11 @@
   </div>
 </div>
 
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/fancybox/1.3.4/jquery.fancybox-1.3.4.pack.min.js"></script>
 
+<script src="image-interaction.js"></script>
 </body>
 
 </html>

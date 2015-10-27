@@ -5,6 +5,21 @@ body {
 
 }
 
+ 
+
+ 
+    .fancybox img{
+   border: 10px solid white;
+  position: relative;
+    } 
+
+
+    .fancybox:hover{
+     transform: scale(1.03,1.03);
+    }
+
+
+
 .about-title{
 	font-family: Verdana, sans-serif;
 	text-align: center;
@@ -18,8 +33,8 @@ body {
 
 .section{
   width:100%;
-  margin-bottom: 0rem;*/
-  /*background-color:red;*/
+  margin-bottom: 0rem;
+
 }
 
 .container{
@@ -141,6 +156,9 @@ input,select{
 	display: none;
 }
 
+.footer a{
+	color: white;
+}
 
 /*********************** web page 50em********************************/
 
@@ -305,7 +323,7 @@ p {
 	line-height: 1.5em;
 	text-align: left;
 }
-}
+
 
 
 h3{
@@ -448,7 +466,7 @@ input{
 	padding-left: 15%;
 	padding-right: 15%;}
 
-}
+
 
 *, *:after, *:before {
   -webkit-box-sizing: border-box;
@@ -551,9 +569,7 @@ input{
 	margin-right: 15%;
 }
 
-.footer-wrapper{
-	padding:;
-}
+
 .page-footer ul li{
 
 	list-style: none;
@@ -610,10 +626,25 @@ input{
 }
 /******** about us *******/
 .nav-bar{
-	background-image: url(img/background-img-2.jpg);
+	background-image: url(../img/background-img-2-1.jpg);
 	background-repeat: no-repeat;
 	background-size:100%;
-	height: 40em;}
+	height: 35em;}
+
+	@media (max-width: 70rem) {
+	.reservation .container .grid .col-7,.reservation .container .grid .col-5{
+		width:100%;
+
+
+	}
+	.nav-bar{
+		height: 30em;
+	}
+
+	.about .container .grid .col-6{
+		width:100%;
+	}
+}
 	
 @media (max-width: 60rem) {
 	.reservation .container .grid .col-7,.reservation .container .grid .col-5{
@@ -621,18 +652,23 @@ input{
 
 
 	}
+	.nav-bar{
+		height: 25em;
+	}
 
 	.about .container .grid .col-6{
 		width:100%;
 	}
 }
+
 @media (max-width: 50rem) {
 	.room .container .grid .col-4{
 		width: 100%;
 		padding-right: 0rem;
 	}
 	.nav-bar{
-		height: 25em;
+		height: 20em;
+	
 	}
 }
 
@@ -644,7 +680,6 @@ input{
 		display: block;
 		background-color: black;
 		margin-bottom: 0.5rem;
-		/*background-color: red;*/
 	}
 
 
@@ -652,7 +687,8 @@ input{
 	.nav-bar{
 		background-image: none;
 		background-color: white;
-		height: 0;
+		height: 0em;
+
 	}
 	.main_nav{
 		text-align: center;

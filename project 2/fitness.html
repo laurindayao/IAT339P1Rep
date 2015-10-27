@@ -4,11 +4,14 @@
 
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="basic.css" rel="stylesheet"/>
-  <link href="grid.css" rel="stylesheet"/>
-   <link href="fitness.css" rel="stylesheet"/>
+  <link href="css/basic.css" rel="stylesheet"/>
+  <link href="css/grid.css" rel="stylesheet"/>
+   <link href="css/fitness.css" rel="stylesheet"/>
+      <link href="css/other-query.css" rel="stylesheet"/>
 
   <link href='https://fonts.googleapis.com/css?family=Titillium+Web:400,400italic,600,600italic,700,700italic' rel='stylesheet' type='text/css' />
+  <link rel="stylesheet" type="text/css" media="screen" href="http://cdnjs.cloudflare.com/ajax/libs/fancybox/1.3.4/jquery.fancybox-1.3.4.css" />
+
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
   <title>SunRise Hotel Manchuria</title>
 </head>
@@ -99,7 +102,7 @@
             </div>
           </div>
           <div class="cell-book-button col-4">
-            <a class="book-button"href="#">BOOK NOW</a>
+            <a class="book-button"href="select-room.html">BOOK NOW</a>
           </div>
 
         </div>
@@ -118,17 +121,17 @@
           <!--right content-->
           <div class="col-8">
            <div class="col-12">
-              <img src="img/fitness1.jpeg">
+             <a href="#"> <img class="fancybox" src="img/fitness-1.jpg" alt="fitness center" /></a>
             </div>
             <div class="grid">
                 <div class="col-3 room">
-                <img src="img/fitness2.jpeg"></div>
+                <a href="#"><img class="fancybox" src="img/fitness2.jpeg" alt="fitness center" /><a/></div>
                 <div class="col-3 room">
-                <img src="img/fitness3.jpeg"></div>
+                <a href="#"><img class="fancybox" src="img/fitness3.jpeg" alt="fitness center"/></a></div>
                 <div class="col-3 room">
-                <img src="img/fitness4.jpeg"></div>
+                <a href="#"><img class="fancybox" src="img/fitness4.jpeg" alt="fitness center"/></a></div>
                 <div class="col-3 room">
-                <img src="img/fitness5.jpeg"></div> 
+                <a href="#"><img class="fancybox" src="img/fitness5.jpeg" alt="fitness center"/></a> </div> 
             </div> 
           </div>
         <!--right content--> 
@@ -136,13 +139,26 @@
             <div class="col-4">
                 <div class="col-12">
                 <h1>FITNESS</h1>
-                <p>Rejuvenate and recharge at our state-of-the-art Fitness Centre. The 325-square-metre (3,500-square-foot) fitness area offers a leading-edge gym fully outfitted with free weights and strength-training and cardio equipment by Matrix and a yoga studio. Located on the eighth floor, the Fitness Centre is accessible 24 hours a day, with a room or residence key, for registered Hotel guests and residents only. Minimum age for use is 12 years.</p>
+                <p>The 325-square-metre (3,500-square-foot)fitness area offers a leading-edge gym fully outfitted with free weights and strength-training and cardio equipment by Matrix and a yoga studio.Located on the eighth floor, the Fitness Centre is accessible 24 hours a day, with a room or residence key, for registered Hotel guests and residents only. Minimum age for use is 12 years.</p>
                 <p><strong>6.00 am - 10.00pm on Monday to Thursday</strong></p>
                 <p><strong>6.00am - 9.00pm on Friday to Sunday</strong></p>
 
-
                 </div>
+                <div class="col-12 feature-list">
+              <div>
+              <h3>Facilities include: </h3>
+            </div>
 
+              <div>
+              <ul>
+                <li>Yoga studio</li>
+                <li>Swimming pool</li>
+                <li>Hot tub</li>
+                <li>Saunna room</li>
+                <li>Steam room</li>
+              </ul>
+            </div>
+            </div>
 
             </div>
           </div>
@@ -170,10 +186,10 @@
       <div class="col-12">
         <div class="about-us">
           <ul>
-            <li>About Us</li>
-            <li>Blog</li>
+            <li><a href="about-us.html">About Us</a></li>
+            <li><a href="event.html">Event</a></li>
             <li>Careers</li>
-            <li>Contact Us</li>
+            <li><a href="contact.html">Contact Us</a></li>
             <li>Privacy Policy</li>
             <li id="term-of-use">Terms of Service</li>
           </ul>
@@ -187,6 +203,11 @@
     </div>
   </div>
 </div>
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/fancybox/1.3.4/jquery.fancybox-1.3.4.pack.min.js"></script>
+
+<script src="image-interaction.js"></script>
 
 </body>
 

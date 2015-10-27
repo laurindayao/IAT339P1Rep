@@ -5,12 +5,16 @@
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <link href="basic.css" rel="stylesheet"/>
-  <link href="grid.css" rel="stylesheet"/>
-   <link href="about.css" rel="stylesheet"/>
+  <link href="css/basic.css" rel="stylesheet"/>
+  <link href="css/grid.css" rel="stylesheet"/>
+   <link href="css/about.css" rel="stylesheet"/>
+   <link href="css/other-query.css" rel="stylesheet"/>
 
   <link href='https://fonts.googleapis.com/css?family=Titillium+Web:400,400italic,600,600italic,700,700italic' rel='stylesheet' type='text/css' />
+ <link rel="stylesheet" type="text/css" media="screen" href="http://cdnjs.cloudflare.com/ajax/libs/fancybox/1.3.4/jquery.fancybox-1.3.4.css" />
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  
+
   <title>SunRise Hotel Manchuria</title>
 </head>
 <body>
@@ -123,7 +127,7 @@
        
       </div>
       <div class="col-6">
-        <img class="about-sunrise-img-big" src="img/double.jpg" alt="SunRise Hotel image #1" />
+        <a href="#"><img class="fancybox" src="img/double.jpg" alt="SunRise Hotel image #1" /></a>
       </div>
       <div class="col-6">
         <p class="hotel-intro">Times change, but our dedication to perfecting the travel experience never will. Our highly personalized 24-hour service, combined with authentic, elegant surroundings of the highest quality, embodies a home away from home for those who know and appreciate the best. As the company has grown from a single hotel to 95 in 41 countries, our deeply instilled culture, personified by our employees, continues to get stronger. Over more than 50 years, our people have built an unrivalled depth of reliability, trust and connection with our guests – a connection we will steadfastly uphold, now and always.</p>
@@ -184,10 +188,10 @@
       <div class="col-12">
         <div class="about-us">
           <ul>
-            <li>About Us</li>
-            <li>Blog</li>
+            <li><a href="about-us.html">About Us</a></li>
+            <li><a href="event.html">Event</a></li>
             <li>Careers</li>
-            <li>Contact Us</li>
+            <li><a href="contact.html">Contact Us</a></li>
             <li>Privacy Policy</li>
             <li id="term-of-use">Terms of Service</li>
           </ul>
@@ -201,7 +205,11 @@
     </div>
   </div>
 </div>
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/fancybox/1.3.4/jquery.fancybox-1.3.4.pack.min.js"></script>
 
+<script src="image-interaction.js"></script>
 
 </body>
 

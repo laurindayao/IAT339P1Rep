@@ -3,11 +3,15 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 
 <head>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="basic.css" rel="stylesheet"/>
-  <link href="grid.css" rel="stylesheet"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link href="css/basic.css" rel="stylesheet"/>
+  <link href="css/grid.css" rel="stylesheet"/>
+  <link href="css/other-query.css" rel="stylesheet" />
 
   <link href='https://fonts.googleapis.com/css?family=Titillium+Web:400,400italic,600,600italic,700,700italic' rel='stylesheet' type='text/css' />
+
+<link rel="stylesheet" type="text/css" media="screen" href="http://cdnjs.cloudflare.com/ajax/libs/fancybox/1.3.4/jquery.fancybox-1.3.4.css" />
+
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
   <title>SunRise Hotel Manchuria</title>
 </head>
@@ -116,24 +120,24 @@
   <div class="container">
     <div class="grid">
       <div class="col-4">
-        <img src="img/queen.jpg" />
+        <a href="#"><img class="fancybox" src="img/queen.jpg" alt="qeen room"/></a>
         <h3>Our Rooms</h3>
         <p class="room-info">Spacious,bright and outward facing rooms and totally refurbished. The room is fully equipped bathroom finished in top quality bronze coloured ceramics and an independent hallway-dressing area.</p>
         <p class="view-more-rooms"><a href="rooms.html">VIEW MORE ROOMS>></a></p>
       </div>
 
       <div class="col-4">
-        <img src="img/event3.jpg" />
+        <a href="#"><img class="fancybox" src="img/event3.jpg" alt="event image"/></a>
         <h3>Event</h3>
         <p>You can explore lots of events in Manchuria. The Mongolian national holiday Naadam is celebrated in Mongolia each year on 11 July. "Eriin gurvan naadam" the three manly games of wrestling, horse racing, and archery- make up the core activities of the National day festivals.</p>
         <p class="view-more-rooms"><a href="event.html">VIEW MORE EVENTS>></a></p>
       </div>
 
       <div class="col-4">
-        <img src="img/amenities.jpg" />
+        <a href="#"> <img class="fancybox" src="img/amenities.jpg" alt="amenities"/> </a>
         <h3>Amenities</h3>
         <p class="room-info">Spacious, bright and outward facing rooms measuring 27 m2 and totally refurbished. The room is fully equipped bathroom finished in top quality bronze coloured ceramics and an independent hallway-dressing area.</p>
-        <p class="view-more-rooms"><a href="amenities.html">VIEW MORE INFO>></a></p>
+        <p class="view-more-rooms"><a href="amenities.html">VIEW MORE AMENITIES>></a></p>
       </div>
     </div>
   </div>
@@ -148,7 +152,7 @@
         <h2>-- SUNRISE HOTEL MANCHURIA --</h2>
       </div>
       <div class="col-6">
-        <img class="about-sunrise-img-big" src="img/double.jpg" alt="SunRise Hotel image #1" />
+        <a href="#"><img class="fancybox" src="img/double.jpg" alt="SunRise Hotel image #1" /></a>
       </div>
       <div class="col-6">
         <p class="hotel-intro">Times change, but our dedication to perfecting the travel experience never will. Our highly personalized 24-hour service, combined with authentic, elegant surroundings of the highest quality, embodies a home away from home for those who know and appreciate the best. As the company has grown from a single hotel to 95 in 41 countries, our deeply instilled culture, personified by our employees, continues to get stronger. Over more than 50 years, our people have built an unrivalled depth of reliability, trust and connection with our guests – a connection we will steadfastly uphold, now and always.</p>
@@ -177,10 +181,10 @@
       <div class="col-12">
         <div class="about-us">
           <ul>
-            <li>About Us</li>
-            <li>Blog</li>
+            <li><a href="about-us.html">About Us</a></li>
+            <li><a href="event.html">Event</a></li>
             <li>Careers</li>
-            <li>Contact Us</li>
+            <li><a href="contact.html">Contact Us</a></li>
             <li>Privacy Policy</li>
             <li id="term-of-use">Terms of Service</li>
           </ul>
@@ -194,7 +198,10 @@
     </div>
   </div>
 </div>
-
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/fancybox/1.3.4/jquery.fancybox-1.3.4.pack.min.js"></script>
+<script src="image-interaction.js"></script>
 
 </body>
 

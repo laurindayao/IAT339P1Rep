@@ -1,8 +1,10 @@
 .nav-bar{
-	background-image: url(img/event-new.jpg);
+	background-image: url(../img/event-new.jpg);
 	background-repeat: no-repeat;
 	background-size:100%;
 	height: 30em;}
+
+
 .event, .event h3{
 
 	text-align: center;
@@ -21,13 +23,12 @@
 	margin-right: auto;
 }
 .event img{
-	width: 50%;
-	padding-right: 1em;
-}
-.event img{
+	width: 45%;
 	float: left;
-	height: 50%;
+	margin-right: 1.5em;
+	
 }
+
 .event p{
 	clear: both;
 	padding-top: 3em;
@@ -35,6 +36,7 @@
 	margin-left: auto;
 	margin-right: auto;	
 }
+
 [class*='event-']{
 	border-bottom: solid thin black;
 }
@@ -43,19 +45,5 @@
 	border-bottom: none;
 }
 
-@media (max-width: 30rem) {
-	.reservation .container .grid .col-7 .col-4,.reservation .container .grid .col-5 .col-4{
-		width:100%;
 
-	}
-	.nav-bar{
-	height: 0em;}
-
-	
-
-	.main_nav ul li:hover{
-		background-color: rgb(48,190,220);
-		
-	}
-
-	}
+}
