@@ -21,19 +21,3 @@ h1{
 	background-size:100%;
 	height: 30em;}
 
-	@media (max-width: 30rem) {
-	.reservation .container .grid .col-7 .col-4,.reservation .container .grid .col-5 .col-4{
-		width:100%;
-
-	}
-	.nav-bar{
-	height: 0em;}
-
-	img {
-		display: none;
-	}
-	.main_nav ul li:hover{
-		background-color: rgb(48,190,220);
-		
-	}
-}

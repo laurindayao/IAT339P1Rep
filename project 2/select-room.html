@@ -10,13 +10,18 @@
   <link href="css/other-query.css" rel="stylesheet" />
 
   <link href='https://fonts.googleapis.com/css?family=Titillium+Web:400,400italic,600,600italic,700,700italic' rel='stylesheet' type='text/css' />
+  <link rel="stylesheet" type="text/css" media="screen" href="http://cdnjs.cloudflare.com/ajax/libs/fancybox/1.3.4/jquery.fancybox-1.3.4.css" />
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
   <title>SunRise Hotel Manchuria</title>
 </head>
 
 <body>
   <!-- MAIN NAVIGATION // -->
-  <div class="nav-bar">
+  <nav class="nav-bar">
+    <div class="logo">
+      <a href="home.html"> 
+        <img src="img/sunrise-logo-02.png" alt="Sunrise Hotel Logo"  /></a>
+    </div>
     <div class="main_nav">
       <ul>
         <li><a href="home.html"> HOME</a></li>
@@ -27,7 +32,8 @@
         <li><a href="contact.html">CONTACT</a></li>
       </ul>
     </div>
-  </div>
+    
+  </nav>
   <!-- HEADER WEATHER// -->
   <div class="reservation section">
     <div class="container">
@@ -53,7 +59,7 @@
             <div class="cell-room-type col-4">
 
               <div>
-                <label for="type-of-room">Type of Room: </label>
+                <label for="type-of-room">Type of room:  </label>
               </div>
 
               <div>
@@ -131,14 +137,14 @@
     <div class="roomcontainer">
       <div class="grid">
         <div class="col-4">
-          <img src="img/single.jpg" alt="single bed room image"/>
+          <img class="fancybox" src="img/single.jpg" alt="single bed room image"/>
         </div>
         <div class="col-4 singleroom">
           <h2>Single Bed</h2>
           <p>
             Spacious, bright and outward facing rooms measuring 27 m2 and totally refurbished...
           </p>
-          <a href="room-details.html">SEE MORE DETAILS>></a>
+          <a class="see-more-details" href="room-single.html">SEE MORE DETAILS>></a>
         </div>
         <div class="col-4 averagerate">
           <p>AVERAGE RATE</p>
@@ -150,14 +156,14 @@
     <div class="roomcontainer">
       <div class="grid">
         <div class="col-4">
-          <img src="img/double.jpg" alt="double bed room image"/>
+          <img class="fancybox" src="img/double.jpg" alt="double bed room image"/>
         </div>
         <div class="col-4 singleroom">
           <h2>Double Bed</h2>
           <p>
              Spacious, bright and outward facing rooms measuring 27 m2 and totally refurbished...
           </p>
-           <a href="room-details.html">SEE MORE DETAILS>></a>
+           <a class="see-more-details" href="room-double.html">SEE MORE DETAILS>></a>
         </div>
         <div class="col-4 averagerate">
           <p>AVERAGE RATE</p>
@@ -169,14 +175,14 @@
     <div class="roomcontainer">
       <div class="grid">
         <div class="col-4">
-          <img src="img/twin.jpg" alt="double bed room image"/>
+          <img class="fancybox" src="img/twin.jpg" alt="double bed room image"/>
         </div>
         <div class="col-4 singleroom">
           <h2>Twin Bed</h2>
           <p>
             Spacious, bright and outward facing rooms measuring 27 m2 and totally refurbished...
           </p>
-           <a href="room-details.html">SEE MORE DETAILS>></a>
+           <a class="see-more-details" href="#">SEE MORE DETAILS>></a>
         </div>
         <div class="col-4 averagerate">
           <p>AVERAGE RATE</p>
@@ -188,14 +194,14 @@
     <div class="roomcontainer">
       <div class="grid">
         <div class="col-4">
-          <img src="img/king.jpg" alt="king bed room image"/>
+          <img class="fancybox" src="img/king.jpg" alt="king bed room image"/>
         </div>
         <div class="col-4 singleroom">
           <h2>King Bed</h2>
           <p>
              Spacious, bright and outward facing rooms measuring 27 m2 and totally refurbished...
           </p>
-           <a href="room-details.html">SEE MORE DETAILS>></a>
+           <a class="see-more-details" href="#">SEE MORE DETAILS>></a>
         </div>
         <div class="col-4 averagerate">
           <p>AVERAGE RATE</p>
@@ -207,14 +213,14 @@
     <div class="roomcontainer">
       <div class="grid">
         <div class="col-4">
-          <img src="img/queen.jpg" alt="queen bed room image"/>
+          <img class="fancybox" src="img/queen.jpg" alt="queen bed room image"/>
         </div>
         <div class="col-4 singleroom">
           <h2>Queen Bed</h2>
           <p>
             Spacious, bright and outward facing rooms measuring 27 m2 and totally refurbished...
           </p>
-           <a href="room-details.html">SEE MORE DETAILS>></a>
+           <a class="see-more-detail" href="#">SEE MORE DETAILS>></a>
         </div>
         <div class="col-4 averagerate">
           <p>AVERAGE RATE</p>
@@ -226,14 +232,14 @@
     <div class="roomcontainer">
       <div class="grid">
         <div class="col-4">
-          <img src="img/suite.jpg" alt="suite room image"/>
+          <img class="fancybox" src="img/suite.jpg" alt="suite room image"/>
         </div>
         <div class="col-4 singleroom">
           <h2>Suite</h2>
           <p>
             Spacious, bright and outward facing rooms measuring 27 m2 and totally refurbished...
           </p>
-           <a href="room-details.html">SEE MORE DETAILS>></a>
+           <a class="see-more-details" xhref="#">SEE MORE DETAILS>></a>
         </div>
 
         <div class="col-4 averagerate">
@@ -285,6 +291,10 @@
     </div>
   </div>
 
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/fancybox/1.3.4/jquery.fancybox-1.3.4.pack.min.js"></script>
+<script src="image-interaction.js"></script>
 
 </body>
 

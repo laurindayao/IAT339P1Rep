@@ -19,7 +19,11 @@
 </head>
 <body>
   <!-- MAIN NAVIGATION // -->
-  <div class="nav-bar">
+  <nav class="nav-bar">
+    <div class="logo">
+      <a href="home.html"> 
+        <img src="img/sunrise-logo-02.png" alt="Sunrise Hotel Logo"  /></a>
+    </div>
     <div class="main_nav">
       <ul>
         <li><a href="home.html"> HOME</a></li>
@@ -30,7 +34,8 @@
         <li><a href="contact.html">CONTACT</a></li>
       </ul>
     </div>
-  </div>
+    
+  </nav>
   <!-- HEADER WEATHER// -->
 <div class="reservation section">
   <div class="container">
@@ -56,7 +61,7 @@
           <div class="cell-room-type col-4">
 
             <div>
-              <label for="type-of-room">Type of Room: </label>
+              <label for="type-of-room">Type of room:  </label>
             </div>
 
             <div>
@@ -124,50 +129,59 @@
       <div class="col-12 title">
         <h3 class="about-title">ABOUT</h3>
         <h2>-- SUNRISE HOTEL MANCHURIA --</h2>
-       
       </div>
+
       <div class="col-6">
         <a href="#"><img class="fancybox" src="img/double.jpg" alt="SunRise Hotel image #1" /></a>
       </div>
+
       <div class="col-6">
         <p class="hotel-intro">Times change, but our dedication to perfecting the travel experience never will. Our highly personalized 24-hour service, combined with authentic, elegant surroundings of the highest quality, embodies a home away from home for those who know and appreciate the best. As the company has grown from a single hotel to 95 in 41 countries, our deeply instilled culture, personified by our employees, continues to get stronger. Over more than 50 years, our people have built an unrivalled depth of reliability, trust and connection with our guests – a connection we will steadfastly uphold, now and always.</p>
       </div>
+
     </div>
   </div>
   </div>
 </div>
 
-<div class="section review">
 
-  <div class="container">
-    <div class="grid">
-     <div class="review-container">
-      <h2> GIVE US REVIEW</h2>
-      <form>
-        <div class="name">
-        <label name="name"> Name: </labe>
-          <input type="text" name="input-name" /> 
-        </div>
 
-        <div class="subject-line">
-        <label name="subject"> Subject </label>
-        <input type="text" name ="subject"/>
-       </div>
-       <div class="comment">
-        <label name="comment"> Comment: </label>
- <textarea name="comment"> </textarea>
+
+<div class="section comment">
+
+    <div class="comment-container">
+
+      <form class="" action="" method="post">
+
+            <h2>Your comments are greatly appreciated!</h2>
+          
+          <div class="col-6">
+            <label for="name">Your Name: </label>
+            <input class="" type="" placeholder="" id="">
+          </div>
+
+          <div class="col-6 last">
+            <label for="e-mail">Your e-mail address:</label>
+            <input class="" type="" placeholder="" id="">
+          </div>
+
+          <div class="col-12">
+            <label for="name">Comment: </label>
+            <textarea></textarea>
+          </div>
 
       </form>
-<div class="submit-button col-4">
-            <a class="book-button" href="">SUBMIT</a>
-          </div>
-     </div>
-      
+
+           <div class="submit-button">
+            
+            
+            <button type="button" onclick="alertFeedback()"><a href="#"> SUBMIT!</a>
+            </button>
+
+        </div>
+
     </div>
   </div>
-  </div>
-</div>
-
 
   <!-- footer // -->
 
@@ -211,6 +225,11 @@
 
 <script src="image-interaction.js"></script>
 
+          <script>
+    function alertFeedback() {
+    alert("We have received your comment. Your comment is greatly appreciated. Sunrise Manchuria welcomes you to send us comments again! ");
+}
+        </script>
 </body>
 
 </html>

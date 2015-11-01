@@ -1,21 +1,39 @@
-@media (max-width: 70rem) {
+@media (max-width: 80rem) {
 	
 	.nav-bar{
 	height: 25em;}
 
 	
 	}
-@media (max-width: 60rem) {
+@media (max-width: 70rem) {
 	
 	.nav-bar{
 	height: 20em;}
 
 	
 	}
+@media (max-width: 60rem) {
+	
+	.nav-bar{
+	height: 16em;}
+
+	
+	}
 @media (max-width: 50rem) {
 	
 	.nav-bar{
-	height: 15em;}
+	height: 14em;}
+
+		.fancybox .image-big{
+		width: 100%;
+	}
+	.fancybox .image-small{
+		display:none;
+	}
+	.col-8{
+  		width:100%;
+	}
+
 
 	
 	}
@@ -34,6 +52,10 @@
 	.main_nav ul li:hover{
 		background-color: rgb(48,190,220);
 		
+	}
+
+	.event img{
+		width: 100%;
 	}
 
 	}
